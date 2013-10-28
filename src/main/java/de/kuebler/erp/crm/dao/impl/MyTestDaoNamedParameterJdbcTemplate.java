@@ -15,7 +15,7 @@ public class MyTestDaoNamedParameterJdbcTemplate extends
 	@PostConstruct
 	public void init() {
 		super.setDataSource(dataSource);
-		long success = getJdbcTemplate().queryForLong("SELECT * FROM dual");
+		long success = getJdbcTemplate().queryForLong("select 1 from dual");
 		System.out.println("success: " + (success > 0));
 	}
 	/*
