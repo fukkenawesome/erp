@@ -11,6 +11,7 @@
 		<title>Welcome</title>
 	</head> 
 	<body>
+		<div class="change"></div>
 		<c:url value="/testHomeRedirect.html" var="messageUrl" />
 		<a href="${messageUrl}">Click to enter</a>
 	</body>
